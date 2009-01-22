@@ -1,0 +1,8 @@
+#summary Program screenshots.
+
+[http://coldemoplayer.gittodachoppa.com/ss1.png http://coldemoplayer.gittodachoppa.com/ss1_t.png]
+[http://coldemoplayer.gittodachoppa.com/ss2.png http://coldemoplayer.gittodachoppa.com/ss2_t.png]
+[http://coldemoplayer.gittodachoppa.com/ss3.png http://coldemoplayer.gittodachoppa.com/ss3_t.png]
+[http://coldemoplayer.gittodachoppa.com/ss4.png http://coldemoplayer.gittodachoppa.com/ss4_t.png]
+[http://coldemoplayer.gittodachoppa.com/ss5.png http://coldemoplayer.gittodachoppa.com/ss5_t.png]
+[http://coldemoplayer.gittodachoppa.com/ss6.png http://coldemoplayer.gittodachoppa.com/ss6_t.png]
