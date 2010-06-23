@@ -1,0 +1,28 @@
+﻿<Window x:Class="compLexity_Demo_Player.AboutWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:compLexity_Demo_Player"
+    Title="About" Width="500" WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow" SizeToContent="Height" ShowInTaskbar="False">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackPanel Margin="8">
+            <TextBlock FontWeight="Bold" Name="uiProgramDescriptionTextBlock" />
+            <local:HyperlinkControl Url="http://code.google.com/p/coldemoplayer/" />
+            <local:HyperlinkControl Margin="0,0,0,8" Url="http://www.complexitygaming.com/" />
+            <TextBlock TextWrapping="Wrap">Icons used from the Silk icon set 1.3 under a
+Creative Commons Attribution 2.5 License.</TextBlock>
+            <local:HyperlinkControl Margin="0,0,0,8" Url="http://www.famfamfam.com/lab/icons/silk/" />
+            <TextBlock TextWrapping="Wrap">JsonExSerializer is used under The BSD License.</TextBlock>
+            <TextBlock TextWrapping="Wrap">JsonExSerializer is Copyright (c) 2007, Ted Elliott. All rights reserved.</TextBlock>
+            <local:HyperlinkControl Margin="0,0,0,8" Url="http://code.google.com/p/jsonexserializer/" />
+            <TextBlock TextWrapping="Wrap">SharpZipLib is used under a modified version of a GPL licence.</TextBlock>
+            <local:HyperlinkControl Margin="0,0,0,8" Url="http://www.icsharpcode.net/OpenSource/SharpZipLib/" />
+            <TextBlock TextWrapping="Wrap">ZedGraph is used under a LGPL licence.</TextBlock>
+            <local:HyperlinkControl Margin="0,0,0,8" Url="http://zedgraph.org/wiki/index.php?title=LGPL_License" />
+        </StackPanel>
+        <Button Grid.Row="1" Margin="4" Padding="16,0,16,0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Name="uiCloseButton" Click="uiCloseButton_Click">Close</Button>
+    </Grid>
+</Window>
